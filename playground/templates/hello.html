@@ -5,5 +5,11 @@
     {% else %}
     <h1>Hello World</h1>
     {% endif %}
+    <ul>
+    {% for var in item_in_col3 %}
+    <h2>{{ var.id }}</h2>
+    {% endfor %}
+    <ul>
+
   </body>
 </html>
